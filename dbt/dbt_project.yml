@@ -1,0 +1,15 @@
+name: retail_price_tracker
+version: "1.0.0"
+config-version: 2
+
+profile: retail_price_tracker
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  retail_price_tracker:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

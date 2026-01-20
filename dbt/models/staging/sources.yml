@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: prices_raw
+        description: "Raw ingested payloads as JSON"
