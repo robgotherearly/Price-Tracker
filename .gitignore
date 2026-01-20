@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Airflow logs
+airflow/logs/
+
+# Env files
+.env
+
+# DB + local files (optional)
+*.db
+*.sqlite
